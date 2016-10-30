@@ -9,7 +9,7 @@ class typeCollectionTests(unittest.TestCase):
         self.assertIsNotNone(coll.getTypeFromId(1))
         self.assertIsNotNone(coll.getTypeFromId(2))
 
-    def test_getTypeFromId_MatchingObjectDoesNotExists(self):
+    def test_getTypeFromId_MatchingObjectDoesNotExist(self):
         typeList = [type(1),type(2),type(4)]
         coll=typeCollection(typeList)
         self.assertIsNone(coll.getTypeFromId(3))
