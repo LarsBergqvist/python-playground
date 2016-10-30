@@ -1,7 +1,7 @@
->>> from calc import getMultipliedResult
->>> getMultipliedResult([5,10,100])
+>>> from calc import get_multiplied_result
+>>> get_multiplied_result([5,10,100])
 5000
->>> getMultipliedResult([1,2,3,4])
+>>> get_multiplied_result([1,2,3,4])
 24
 
 

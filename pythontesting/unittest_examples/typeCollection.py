@@ -1,16 +1,16 @@
-class type:
+class Type:
     id=0
     def __init__(self,id):
         self.id = id
 
-class typeCollection:
-    __types = []
+class TypeCollection:
+    _types = []
     def __init__(self,typeList):
-        self.__types = typeList
+        self._types = typeList
 
-    def getTypeFromId(self,typeID):
-        if self.__types is None:
+    def get_type_from_id(self,typeID):
+        if self._types is None:
             return None
 
-        type = next((i for i in self.__types if i.id == typeID), None)
+        type = next((i for i in self._types if i.id == typeID), None)
         return type
