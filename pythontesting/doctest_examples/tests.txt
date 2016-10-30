@@ -1,0 +1,9 @@
+>>> from calc import getMultipliedResult
+>>> getMultipliedResult([5,10,100])
+5000
+>>> getMultipliedResult([1,2,3,4])
+24
+
+
+
+
