@@ -47,6 +47,18 @@ True
 >>> ' '.join(['word1','word2'])
 'word1 word2'
 
+>>> 'hello friend'.partition(' ')
+('hello', ' ', 'friend')
+
+>>> 'hello friend'.replace('friend','world')
+'hello world'
+
+>>> 'hello friend'.split(' ')
+['hello', 'friend']
+
+>>> 'hello\\nfriend'.splitlines()
+['hello', 'friend']
+
 """
 
 if __name__ == "__main__":
