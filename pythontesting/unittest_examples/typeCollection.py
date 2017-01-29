@@ -5,12 +5,13 @@ class Type:
 
 class TypeCollection:
     _types = []
-    def __init__(self,typeList):
+
+    def __init__(self, typeList):
         self._types = typeList
 
-    def get_type_from_id(self,typeID):
+    def get_type_from_id(self, typeid):
         if self._types is None:
             return None
 
-        type = next((i for i in self._types if i.id == typeID), None)
-        return type
+        mytype = next((i for i in self._types if i.id == typeid), None)
+        return mytype
