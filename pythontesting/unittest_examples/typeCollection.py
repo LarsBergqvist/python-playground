@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
+
 class Type:
-    id=0
-    def __init__(self,id):
-        self.id = id
+    id = 0
+
+    def __init__(self, identifier):
+        self.id = identifier
+
 
 class TypeCollection:
     _types = []

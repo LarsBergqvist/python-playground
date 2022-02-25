@@ -5,9 +5,10 @@
 #
 
 from collections import namedtuple
-book = namedtuple("Book","name author year")
-book1 = book("How to use tuples","Arne",2016)
-book2 = book("Python is your friend","Bertil",2015)
+
+book = namedtuple("Book", "name author year")
+book1 = book("How to use tuples", "Arne", 2016)
+book2 = book("Python is your friend", "Bertil", 2015)
 print(book._fields)
 print(book1)
 print(book2)

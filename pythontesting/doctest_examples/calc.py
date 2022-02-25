@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 
 """
 >>> get_multiplied_result([5,10])
@@ -9,12 +10,16 @@
 >>> get_multiplied_result([5.5])
 5.5
 """
+
+
 def get_multiplied_result(factors):
     total = 1
     for factor in factors:
         total = total * factor
     return total
 
+
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()

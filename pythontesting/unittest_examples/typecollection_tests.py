@@ -1,5 +1,8 @@
+#!/usr/bin/env python3
+
 import unittest
-from typecollection import TypeCollection, Type
+from typeCollection import TypeCollection, Type
+
 
 class TypeCollectionTests(unittest.TestCase):
 
@@ -23,5 +26,6 @@ class TypeCollectionTests(unittest.TestCase):
         coll = TypeCollection(None)
         self.assertIsNone(coll.get_type_from_id(3))
 
-if __name__ == "__main__": 
+
+if __name__ == "__main__":
     unittest.main()

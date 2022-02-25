@@ -25,7 +25,7 @@ print(x)
 # Cartesian product M x N
 M = "ABCD"
 N = "123"
-product = [(m,n) for m in M for n in N]
+product = [(m, n) for m in M for n in N]
 print(product)
-product = [(m,n) for n in N for m in M]
+product = [(m, n) for n in N for m in M]
 print(product)
