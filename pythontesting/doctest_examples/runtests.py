@@ -1,2 +1,2 @@
 import doctest
-doctest.testfile("tests.txt")
+doctest.testfile("data.txt")

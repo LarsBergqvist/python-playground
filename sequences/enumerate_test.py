@@ -17,10 +17,13 @@
 8 8
 """
 
+
 def iterate_items_and_index(sequence, start_index=0):
-   for index, item in enumerate(sequence, start_index):
-      print(index,item)
+    for index, item in enumerate(sequence, start_index):
+        print(index, item)
+
 
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
