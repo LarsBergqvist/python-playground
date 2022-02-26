@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="821c64a5-6b08-44b0-aaf6-29817dd99596" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-package.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itertools_test/cycle_and_zip.py" beforeDir="false" afterPath="$PROJECT_DIR$/itertools_test/cycle_and_zip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itertools_test/xor_encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/itertools_test/xor_encryption.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
