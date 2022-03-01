@@ -17,8 +17,8 @@
 
 def get_dictionary():
     dic = {'SEK': 1.3}
-    currency = dic.setdefault('SEK', 1.5)
-    currency = dic.setdefault('EUR', 1.4)
+    dic.setdefault('SEK', 1.5)  # gets the value and sets a value if not already exists
+    dic.setdefault('EUR', 1.4)  # gets the value and sets a value if not already exists
     return dic
 
 
