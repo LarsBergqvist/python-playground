@@ -23,6 +23,7 @@ for _, n in product:
 #
 my_tuple = (1, 2, 3)
 print(my_tuple)
+print(*my_tuple)
 
 
 def multiply_values(a, b, c):
