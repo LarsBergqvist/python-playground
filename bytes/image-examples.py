@@ -1,7 +1,7 @@
 import struct
 
 # Read 100 bytes of a png file to a memoryview
-with open('icon-72x72.png', 'rb') as fp:
+with open('.\\icon-72x72.png', 'rb') as fp:
     img = memoryview(fp.read(100))
 
 # Slice the header of the png file
@@ -14,7 +14,7 @@ del img
 del header
 
 # Read 100 bytes of a gif file to a memoryview
-with open('icon-72x72.gif', 'rb') as fp:
+with open('.\\icon-72x72.gif', 'rb') as fp:
     img = memoryview(fp.read(100))
 # Slice the header of the png file
 header = img[:10]
